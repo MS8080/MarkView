@@ -40,7 +40,9 @@ playground.xcworkspace
 Packages/
 Package.pins
 Package.resolved
-*.xcodeproj
+# Exclude xcodeproj user data but keep project file
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
 # Comment the next line if you want to checkin your project.
 # .swiftpm
 
