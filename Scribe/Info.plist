@@ -4,6 +4,10 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Scribe</string>
+	<key>CFBundleName</key>
+	<string>Scribe</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>

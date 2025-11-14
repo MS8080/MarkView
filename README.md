@@ -1,4 +1,4 @@
-# MarkView
+# Scribe
 
 A beautiful, native macOS Markdown editor and viewer built with SwiftUI.
 
@@ -7,7 +7,7 @@ A beautiful, native macOS Markdown editor and viewer built with SwiftUI.
 
 ## Overview
 
-MarkView is a document-based macOS application that provides a seamless Markdown editing experience with live preview. Built entirely with SwiftUI and powered by [MarkdownUI](https://github.com/gonzalezreal/MarkdownUI), it offers robust rendering of all Markdown elements including tables, code blocks, and more.
+Scribe is a document-based macOS application that provides a seamless Markdown editing experience with live preview. Built entirely with SwiftUI and powered by [MarkdownUI](https://github.com/gonzalezreal/MarkdownUI), it offers robust rendering of all Markdown elements including tables, code blocks, and more.
 
 ## Features
 
@@ -24,7 +24,7 @@ MarkView is a document-based macOS application that provides a seamless Markdown
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  MarkView                                          [x]   │
+│  Scribe                                          [x]   │
 ├─────────────────────────────────────────────────────────┤
 │                              Show Editor: [X]           │
 ├────────────────────┬────────────────────────────────────┤
@@ -34,7 +34,7 @@ MarkView is a document-based macOS application that provides a seamless Markdown
 │  # Welcome         │   Welcome                          │
 │                    │   ═════════                        │
 │  This is a test    │   This is a test                   │
-│  of **MarkView**   │   of MarkView                      │
+│  of **Scribe**   │   of Scribe                      │
 │                    │                                    │
 │  ## Features       │   Features                         │
 │                    │   ─────────                        │
@@ -51,18 +51,18 @@ See [SETUP.md](SETUP.md) for detailed installation instructions.
 ### Quick Start
 
 1. Open Xcode
-2. Create a new macOS App project named "MarkView"
+2. Create a new macOS App project named "Scribe"
 3. Add the MarkdownUI package dependency: `https://github.com/gonzalezreal/MarkdownUI`
-4. Replace the generated files with the source files in `MarkView/` directory
+4. Replace the generated files with the source files in `Scribe/` directory
 5. Build and run (Cmd+R)
 
 ## Usage
 
 ### Opening Files
 
-- Launch MarkView and choose "Open" from the File menu
-- Or right-click any .md file and select "Open With → MarkView"
-- Drag and drop Markdown files onto the MarkView icon
+- Launch Scribe and choose "Open" from the File menu
+- Or right-click any .md file and select "Open With → Scribe"
+- Drag and drop Markdown files onto the Scribe icon
 
 ### Creating New Documents
 
@@ -78,7 +78,7 @@ See [SETUP.md](SETUP.md) for detailed installation instructions.
 
 ### Interactive Checkboxes
 
-MarkView supports interactive todo lists:
+Scribe supports interactive todo lists:
 
 ```markdown
 - [ ] Unchecked item
@@ -98,13 +98,13 @@ In the preview pane, you can click the checkboxes to toggle them between checked
 ## Project Structure
 
 ```
-MarkView/
-├── MarkView/
-│   ├── MarkViewApp.swift          # Main app entry point
+Scribe/
+├── Scribe/
+│   ├── ScribeApp.swift          # Main app entry point
 │   ├── MarkdownDocument.swift     # Document type definition
 │   ├── ContentView.swift          # Main UI (split view)
 │   └── Info.plist                 # Document type declarations
-├── MarkView.xcodeproj/
+├── Scribe.xcodeproj/
 │   └── project.pbxproj            # Xcode project file
 ├── sample.md                       # Sample Markdown file for testing
 ├── SETUP.md                        # Detailed setup instructions

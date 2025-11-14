@@ -1,6 +1,6 @@
 //
 //  InteractiveMarkdownView.swift
-//  MarkView
+//  Scribe
 //
 //  Interactive Markdown view with clickable checkboxes
 //

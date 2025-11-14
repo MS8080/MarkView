@@ -1,6 +1,6 @@
-# MarkView Setup Instructions
+# Scribe Setup Instructions
 
-This guide will help you set up the MarkView Markdown editor and viewer application.
+This guide will help you set up the Scribe Markdown editor and viewer application.
 
 ## Option 1: Create Xcode Project (Recommended)
 
@@ -10,28 +10,28 @@ This guide will help you set up the MarkView Markdown editor and viewer applicat
 2. Select "Create a new Xcode project"
 3. Choose macOS → App
 4. Configure the project:
-   - Product Name: `MarkView`
+   - Product Name: `Scribe`
    - Interface: `SwiftUI`
    - Language: `Swift`
-   - Use the directory: `/Users/ms/Documents/GitHub/MarkView`
+   - Use the directory: `/Users/ms/Documents/GitHub/Scribe`
    - **Important**: Uncheck "Create Git repository" (already exists)
 
 ### Step 2: Replace Generated Files
 
-The Swift source files have already been created in the `MarkView/` directory:
-- `MarkViewApp.swift` - Main app entry point
+The Swift source files have already been created in the `Scribe/` directory:
+- `ScribeApp.swift` - Main app entry point
 - `MarkdownDocument.swift` - Document type with file handling
 - `ContentView.swift` - Main UI with editor and preview
 - `Info.plist` - Document type declarations
 
 When Xcode creates the project, it will generate similar files. You can either:
-- Delete the generated files and use the existing ones in the `MarkView/` folder, or
+- Delete the generated files and use the existing ones in the `Scribe/` folder, or
 - Keep the generated files and manually update them with the content from our files
 
 ### Step 3: Add MarkdownUI Package Dependency
 
 1. In Xcode, select your project in the navigator
-2. Select the MarkView target
+2. Select the Scribe target
 3. Go to "Package Dependencies" tab
 4. Click the "+" button
 5. Enter the repository URL: `https://github.com/gonzalezreal/MarkdownUI`
@@ -108,7 +108,7 @@ Create a test Markdown file:
 cat > test.md << 'EOF'
 # Test Document
 
-This is a **test** of the MarkView application.
+This is a **test** of the Scribe application.
 
 ## Features
 
@@ -120,7 +120,7 @@ This is a **test** of the MarkView application.
 
 ```swift
 func hello() {
-    print("Hello, MarkView!")
+    print("Hello, Scribe!")
 }
 ```
 
@@ -132,7 +132,7 @@ func hello() {
 EOF
 ```
 
-Then open it with MarkView to test all features.
+Then open it with Scribe to test all features.
 
 ## Next Steps
 

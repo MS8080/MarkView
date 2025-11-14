@@ -1,6 +1,6 @@
-# Welcome to MarkView
+# Welcome to Scribe
 
-MarkView is a powerful Markdown editor and viewer for macOS.
+Scribe is a powerful Markdown editor and viewer for macOS.
 
 ## Features
 
@@ -15,7 +15,7 @@ MarkView is a powerful Markdown editor and viewer for macOS.
 Try clicking the checkboxes below in the preview pane:
 
 - [ ] Learn Markdown syntax
-- [x] Open MarkView application
+- [x] Open Scribe application
 - [ ] Create a new document
 - [ ] Edit some text
 - [x] Try the interactive checkboxes
@@ -49,7 +49,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, MarkView!")
+        Text("Hello, Scribe!")
             .padding()
     }
 }
@@ -101,6 +101,6 @@ print(fibonacci(10))
 - Use the monospaced font in the editor for better readability
 - The preview uses the GitHub Markdown theme
 - All standard Markdown syntax is supported
-- Files are automatically associated with MarkView
+- Files are automatically associated with Scribe
 
-Enjoy writing with MarkView!
+Enjoy writing with Scribe!

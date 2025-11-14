@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# MarkView Setup Verification Script
+# Scribe Setup Verification Script
 # This script verifies that all necessary files are in place
 
-echo "MarkView Setup Verification"
+echo "Scribe Setup Verification"
 echo "=============================="
 echo ""
 
@@ -53,26 +53,26 @@ echo "Checking project structure..."
 echo ""
 
 # Check directories
-check_dir "MarkView" "Source directory exists"
-check_dir "MarkView.xcodeproj" "Xcode project directory exists"
-check_dir "MarkView/Assets.xcassets" "Assets catalog exists"
+check_dir "Scribe" "Source directory exists"
+check_dir "Scribe.xcodeproj" "Xcode project directory exists"
+check_dir "Scribe/Assets.xcassets" "Assets catalog exists"
 
 echo ""
 echo "Checking source files..."
 echo ""
 
 # Check source files
-check_file "MarkView/MarkViewApp.swift" "Main app file"
-check_file "MarkView/MarkdownDocument.swift" "Document type file"
-check_file "MarkView/ContentView.swift" "Content view file"
-check_file "MarkView/Info.plist" "Info.plist file"
+check_file "Scribe/ScribeApp.swift" "Main app file"
+check_file "Scribe/MarkdownDocument.swift" "Document type file"
+check_file "Scribe/ContentView.swift" "Content view file"
+check_file "Scribe/Info.plist" "Info.plist file"
 
 echo ""
 echo "Checking project files..."
 echo ""
 
 # Check project files
-check_file "MarkView.xcodeproj/project.pbxproj" "Xcode project file"
+check_file "Scribe.xcodeproj/project.pbxproj" "Xcode project file"
 check_file "README.md" "README documentation"
 check_file "SETUP.md" "Setup instructions"
 check_file "sample.md" "Sample Markdown file"
@@ -83,9 +83,9 @@ echo "Checking asset catalog..."
 echo ""
 
 # Check assets
-check_file "MarkView/Assets.xcassets/Contents.json" "Assets catalog contents"
-check_file "MarkView/Assets.xcassets/AppIcon.appiconset/Contents.json" "App icon configuration"
-check_file "MarkView/Assets.xcassets/AccentColor.colorset/Contents.json" "Accent color configuration"
+check_file "Scribe/Assets.xcassets/Contents.json" "Assets catalog contents"
+check_file "Scribe/Assets.xcassets/AppIcon.appiconset/Contents.json" "App icon configuration"
+check_file "Scribe/Assets.xcassets/AccentColor.colorset/Contents.json" "Accent color configuration"
 
 echo ""
 echo "=============================="
@@ -96,7 +96,7 @@ if [ $checks_passed -eq $total_checks ]; then
     echo -e "${GREEN}[OK] All checks passed! Your project is ready.${NC}"
     echo ""
     echo "Next steps:"
-    echo "1. Open MarkView.xcodeproj in Xcode"
+    echo "1. Open Scribe.xcodeproj in Xcode"
     echo "2. Wait for Swift Package Manager to resolve dependencies"
     echo "3. Select 'My Mac' as the build target"
     echo "4. Press Cmd+R to build and run"

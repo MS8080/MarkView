@@ -1,12 +1,12 @@
 # Quick Start Guide
 
-Get MarkView up and running in 5 minutes!
+Get Scribe up and running in 5 minutes!
 
 ## Step 1: Open the Project
 
 ```bash
-cd /Users/ms/Documents/GitHub/MarkView
-open MarkView.xcodeproj
+cd /Users/ms/Documents/GitHub/Scribe
+open Scribe.xcodeproj
 ```
 
 ## Step 2: Wait for Dependencies
@@ -20,7 +20,7 @@ This usually takes 30-60 seconds.
 
 ## Step 3: Build and Run
 
-1. In Xcode, ensure "MarkView" scheme is selected
+1. In Xcode, ensure "Scribe" scheme is selected
 2. Select "My Mac" as the run destination
 3. Press `Cmd+R` or click the Play button
 4. The app will build and launch
@@ -34,7 +34,7 @@ This usually takes 30-60 seconds.
 
 ### Open Sample File
 - File → Open (Cmd+O)
-- Navigate to: `/Users/ms/Documents/GitHub/MarkView/sample.md`
+- Navigate to: `/Users/ms/Documents/GitHub/Scribe/sample.md`
 - Test the live preview and editing features
 
 ### Toggle View Mode
@@ -46,7 +46,7 @@ This usually takes 30-60 seconds.
 ### Live Preview
 Type in the editor:
 ```markdown
-# Hello MarkView
+# Hello Scribe
 
 This is **bold** and this is *italic*.
 ```
@@ -117,7 +117,7 @@ func greet() {
 
 Once everything works:
 
-1. **Customize**: Modify the UI in `MarkView/ContentView.swift`
+1. **Customize**: Modify the UI in `Scribe/ContentView.swift`
 2. **Theme**: Change the Markdown theme (currently using `.gitHub`)
 3. **Icon**: Add your own app icon to `Assets.xcassets/AppIcon.appiconset`
 4. **Bundle ID**: Update `PRODUCT_BUNDLE_IDENTIFIER` in project settings
@@ -130,4 +130,4 @@ Once everything works:
 
 ---
 
-Happy Markdown editing with MarkView!
+Happy Markdown editing with Scribe!

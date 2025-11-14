@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# Icon Generator Script for MarkView
+# Icon Generator Script for Scribe
 # Converts icon.svg to all required macOS app icon sizes
 
 set -e
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 SVG_FILE="$SCRIPT_DIR/icon.svg"
-ICONS_DIR="$SCRIPT_DIR/MarkView/Assets.xcassets/AppIcon.appiconset"
+ICONS_DIR="$SCRIPT_DIR/Scribe/Assets.xcassets/AppIcon.appiconset"
 
 # Check if SVG file exists
 if [ ! -f "$SVG_FILE" ]; then
@@ -15,7 +15,7 @@ if [ ! -f "$SVG_FILE" ]; then
     exit 1
 fi
 
-echo "MarkView Icon Generator"
+echo "Scribe Icon Generator"
 echo "======================="
 echo ""
 echo "Source: $SVG_FILE"
@@ -127,7 +127,7 @@ echo "Icons saved to:"
 echo "  $ICONS_DIR"
 echo ""
 echo "Next steps:"
-echo "1. Open MarkView.xcodeproj in Xcode"
+echo "1. Open Scribe.xcodeproj in Xcode"
 echo "2. The new app icon should appear automatically"
 echo "3. Clean and rebuild the project (Cmd+Shift+K, then Cmd+B)"
 echo ""

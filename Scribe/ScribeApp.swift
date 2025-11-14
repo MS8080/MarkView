@@ -1,6 +1,6 @@
 //
-//  MarkViewApp.swift
-//  MarkView
+//  ScribeApp.swift
+//  Scribe
 //
 //  A document-based Markdown viewer and editor for macOS
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct MarkViewApp: App {
+struct ScribeApp: App {
     var body: some Scene {
         DocumentGroup(newDocument: MarkdownDocument()) { file in
             ContentView(document: file.$document)
@@ -16,7 +16,7 @@ struct MarkViewApp: App {
         .commands {
             // Add custom commands here if needed
             CommandGroup(replacing: .help) {
-                Button("MarkView Help") {
+                Button("Scribe Help") {
                     // Open help documentation
                 }
             }

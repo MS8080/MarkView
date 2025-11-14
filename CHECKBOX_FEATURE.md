@@ -1,6 +1,6 @@
 # Interactive Checkbox Feature
 
-MarkView includes interactive checkbox support, allowing you to click checkboxes in the preview pane to toggle their state.
+Scribe includes interactive checkbox support, allowing you to click checkboxes in the preview pane to toggle their state.
 
 ## How It Works
 
@@ -25,7 +25,7 @@ When you click a checkbox:
 
 ## Syntax Support
 
-MarkView recognizes these checkbox patterns:
+Scribe recognizes these checkbox patterns:
 
 ```markdown
 - [ ] Unchecked (space)

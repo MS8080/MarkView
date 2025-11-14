@@ -1,6 +1,6 @@
 //
 //  CheckboxHelper.swift
-//  MarkView
+//  Scribe
 //
 //  Helper for managing interactive checkboxes in Markdown
 //

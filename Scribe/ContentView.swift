@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  MarkView
+//  Scribe
 //
 //  Main view with split editor and preview panes
 //
@@ -95,7 +95,7 @@ struct PreviewPane: View {
 
 #Preview {
     ContentView(document: .constant(MarkdownDocument(text: """
-    # Welcome to MarkView
+    # Welcome to Scribe
 
     This is a **Markdown** viewer and editor.
 

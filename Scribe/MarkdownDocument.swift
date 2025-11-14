@@ -1,6 +1,6 @@
 //
 //  MarkdownDocument.swift
-//  MarkView
+//  Scribe
 //
 //  Document type for Markdown files
 //

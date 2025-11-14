@@ -2,7 +2,7 @@
 
 ## Design
 
-The MarkView app icon features a bold letter "M" on a calm purple gradient background. The M extends to the edges of the icon for a modern, bold appearance.
+The Scribe app icon features a bold letter "M" on a calm purple gradient background. The M extends to the edges of the icon for a modern, bold appearance.
 
 **Made by MS**
 
@@ -20,7 +20,7 @@ The MarkView app icon features a bold letter "M" on a calm purple gradient backg
 - `icon.svg` - Vector source file (1024x1024)
 
 ### Generated Icons
-All icons are located in `MarkView/Assets.xcassets/AppIcon.appiconset/`:
+All icons are located in `Scribe/Assets.xcassets/AppIcon.appiconset/`:
 
 - `icon_16x16.png` - 16x16 pixels (1x)
 - `icon_16x16@2x.png` - 32x32 pixels (2x)
