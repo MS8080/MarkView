@@ -8,7 +8,7 @@ This guide will help you set up the Scribe Markdown editor and viewer applicatio
 
 1. Open Xcode
 2. Select "Create a new Xcode project"
-3. Choose macOS → App
+3. Choose macOS > App
 4. Configure the project:
    - Product Name: `Scribe`
    - Interface: `SwiftUI`
@@ -84,7 +84,7 @@ The completed application includes:
 
 If MarkdownUI doesn't import correctly:
 1. Ensure you're connected to the internet
-2. Try Product → Clean Build Folder (Cmd+Shift+K)
+2. Try Product > Clean Build Folder (Cmd+Shift+K)
 3. Restart Xcode
 
 ### Build Errors

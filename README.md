@@ -38,8 +38,8 @@ Scribe is a document-based macOS application that provides a seamless Markdown e
 │                    │                                    │
 │  ## Features       │   Features                         │
 │                    │   ─────────                        │
-│  - Live preview    │   • Live preview                   │
-│  - Split view      │   • Split view                     │
+│  - Live preview    │   - Live preview                   │
+│  - Split view      │   - Split view                     │
 │                    │                                    │
 └────────────────────┴────────────────────────────────────┘
 ```
@@ -61,12 +61,12 @@ See [SETUP.md](SETUP.md) for detailed installation instructions.
 ### Opening Files
 
 - Launch Scribe and choose "Open" from the File menu
-- Or right-click any .md file and select "Open With → Scribe"
+- Or right-click any .md file and select "Open With > Scribe"
 - Drag and drop Markdown files onto the Scribe icon
 
 ### Creating New Documents
 
-- File → New (Cmd+N)
+- File > New (Cmd+N)
 - Start typing your Markdown content
 - Save with Cmd+S
 

@@ -28,12 +28,12 @@ This usually takes 30-60 seconds.
 ## Step 4: Test the App
 
 ### Create a New Document
-- File → New (Cmd+N)
+- File > New (Cmd+N)
 - Start typing Markdown in the left pane
 - See it rendered in real-time on the right
 
 ### Open Sample File
-- File → Open (Cmd+O)
+- File > Open (Cmd+O)
 - Navigate to: `/Users/ms/Documents/GitHub/Scribe/sample.md`
 - Test the live preview and editing features
 
@@ -100,13 +100,13 @@ func greet() {
 
 ### "Cannot find 'Markdown' in scope"
 - Wait for package resolution to complete
-- Product → Clean Build Folder (Cmd+Shift+K)
+- Product > Clean Build Folder (Cmd+Shift+K)
 - Restart Xcode
 
 ### Package resolution failed
 - Check internet connection
-- Xcode → Preferences → Accounts (verify signed in)
-- File → Swift Packages → Reset Package Caches
+- Xcode > Preferences > Accounts (verify signed in)
+- File > Swift Packages > Reset Package Caches
 
 ### Build errors
 - Ensure macOS deployment target is 13.0 or later
